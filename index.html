@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title></title>
+        <link rel="stylesheet" href="common/css/reset.css">
+        <style media="screen">
+            .tab-bar {
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                justify-content: space-around;;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+            .tab-bar section {
+                text-align: center;
+            }
+            .tab-bar img {
+                width: 30px;
+            }
+            .tab-bar p {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="tab-bar">
+            <section>
+                <a href="#home">
+                    <img src="common/imgs/home.png" alt="">
+                    <p>首页</p>
+                </a>
+            </section>
+            <section>
+                <a href="#sscs">
+                    <img src="img/ccsc.png" alt="">
+                    <p>闪送超市</p>
+                </a>
+            </section>
+            <section>
+                <a href="#cart">
+                    <img src="img/cart.png" alt="">
+                    <p>购物车</p>
+                </a>
+            </section>
+            <section>
+                <a href="#mine">
+                    <img src="img/ouer.png" alt="">
+                    <p>我的</p>
+                </a>
+            </section>
+        </div>
+
+        <div id="container">
+
+        </div>
+
+    </body>
+    <script src="./libs/requirejs.js" data-main="main" charset="utf-8"></script>
+</html>
